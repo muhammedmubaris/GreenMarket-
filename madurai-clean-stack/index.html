@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madurai Clean-Stack | Open-Source Smart Sanitation</title>
+    <meta name="description" content="The Madurai Clean-Stack is an open-source logistics dashboard and IoT suite transforming municipal solid waste management into a transparent, data-driven supply chain.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Madurai<span class="gradient-text">CleanStack</span></div>
+            <ul class="nav-links">
+                <li><a href="#vision">The Vision</a></li>
+                <li><a href="#solutions">The Stack</a></li>
+                <li><a href="#roadmap">Rollout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content fade-in-up">
+            <div class="badge">Version 1.0 Proposed</div>
+            <h1 class="hero-title">A <span class="gradient-text">Data-Driven</span> Supply Chain for Municipal Waste</h1>
+            <p class="hero-subtitle">Solving Madurai's "Secondary Collection Gap" with open-source GPS telemetry, IoT sensors, Computer Vision, and Web3 accountability.</p>
+            <div class="hero-actions">
+                <a href="#solutions" class="btn btn-primary">Explore The Stack</a>
+                <a href="#vision" class="btn btn-outline">Read The Vision</a>
+            </div>
+        </div>
+        <div class="hero-graphic fade-in-up delay-1">
+            <div class="glass-panel main-dashboard-mockup">
+                <div class="mockup-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="mockup-body">
+                    <div class="mockup-sidebar"></div>
+                    <div class="mockup-main">
+                        <div class="mockup-card line-chart"></div>
+                        <div class="mockup-row">
+                            <div class="mockup-card stat-card"></div>
+                            <div class="mockup-card stat-card"></div>
+                            <div class="mockup-card stat-card"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="vision" class="container section">
+        <div class="section-header fade-in">
+            <h2>The Core <span class="gradient-text">Philosophy</span></h2>
+            <p>Treating waste not as a sanitation problem, but as a logistics and supply chain optimization problem.</p>
+        </div>
+        <div class="vision-grid">
+            <div class="vision-card glass-panel fade-in delay-1">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                </div>
+                <h3>Radical Transparency</h3>
+                <p>Establishing an undeniable "source of truth" via open APIs, allowing citizens to track vectors just like food delivery apps.</p>
+            </div>
+            <div class="vision-card glass-panel fade-in delay-2">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <h3>Proactive Maintenance</h3>
+                <p>Shifting from reactive citizen complaints to automated, computer-vision generated work orders via existing CCTV/dashcam infrastructure.</p>
+            </div>
+            <div class="vision-card glass-panel fade-in delay-3">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <h3>Financial Incentives</h3>
+                <p>Tying contractor payouts directly to automated trustless sensors (Hygiene Ledgers) and tokenizing organic waste as an actual commercial asset.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="container section">
+        <div class="section-header fade-in">
+            <h2>The Moduler <span class="gradient-text">Clean-Stack</span></h2>
+            <p>5 independent, interoperable solutions to digitize municipal sanitation from collection to monetization.</p>
+        </div>
+
+        <div class="solutions-list">
+            <!-- Solution 1 -->
+            <div class="solution-item fade-in">
+                <div class="solution-content">
+                    <div class="solution-number">01</div>
+                    <h3 class="solution-title">Logistics Dashboard & API</h3>
+                    <div class="solution-tags">
+                        <span class="tag">GPS Telemetry</span>
+                        <span class="tag">IoT Load Sensors</span>
+                    </div>
+                    <p class="solution-desc">Eliminates "phantom trips" and the secondary collection gap. A public open-API allows citizens to see exactly where the "Kuppai Vandi" (garbage van) is in real-time, functioning like Zomato for trash.</p>
+                </div>
+                <div class="solution-visual glass-panel">
+                    <div class="map-mockup">
+                        <div class="pulse-marker" style="top:40%; left:30%;"></div>
+                        <div class="pulse-marker green" style="top:70%; left:60%;"></div>
+                        <div class="route-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solution 2 -->
+            <div class="solution-item reverse fade-in">
+                <div class="solution-content">
+                    <div class="solution-number">02</div>
+                    <h3 class="solution-title">Automated "Black Spot" Detection</h3>
+                    <div class="solution-tags">
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">YOLOv8 Edge</span>
+                    </div>
+                    <p class="solution-desc">Uses existing city CCTV feeds or public bus dashcams. An AI model detects roadside trash piles (GVPs) and automatically issues geo-tagged work orders to the nearest sanitation worker.</p>
+                </div>
+                <div class="solution-visual glass-panel">
+                    <div class="cv-mockup">
+                        <div class="bounding-box"><span>Trash 98%</span></div>
+                        <div class="scan-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solution 3 -->
+            <div class="solution-item fade-in">
+                <div class="solution-content">
+                    <div class="solution-number">03</div>
+                    <h3 class="solution-title">Vellakkal Digital Twin</h3>
+                    <div class="solution-tags">
+                        <span class="tag">GIS</span>
+                        <span class="tag">Drone Photogrammetry</span>
+                    </div>
+                    <p class="solution-desc">A 3D transparent ledger of the Vellakkal dumpsite. Drones calculate the exact volume of "Legacy Waste" processed via biomining every week, establishing undeniable proof of work and preventing financial corruption.</p>
+                </div>
+                <div class="solution-visual glass-panel">
+                    <div class="mesh-mockup">
+                        <div class="grid-overlay"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solution 4 -->
+            <div class="solution-item reverse fade-in">
+                <div class="solution-content">
+                    <div class="solution-number">04</div>
+                    <h3 class="solution-title">Smart-Toilet "Hygiene Ledger"</h3>
+                    <div class="solution-tags">
+                        <span class="tag">IoT Sensors</span>
+                        <span class="tag">Web3 Smart Contracts</span>
+                    </div>
+                    <p class="solution-desc">Tackling the maintenance accountability problem. VOC (smell) and usage sensors log cleanliness to a Polygon ledger. Contractors only get paid if the aggregate "Hygiene Score" remains above a strict threshold.</p>
+                </div>
+                <div class="solution-visual glass-panel">
+                    <div class="contract-mockup">
+                        <div class="score-circle">85<span>%</span></div>
+                        <div class="status-text">Payout Authorized</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solution 5 -->
+            <div class="solution-item fade-in">
+                <div class="solution-content">
+                    <div class="solution-number">05</div>
+                    <h3 class="solution-title">Hyper-Local Waste Trading</h3>
+                    <div class="solution-tags">
+                        <span class="tag">PWA Marketplace</span>
+                        <span class="tag">UPI Integration</span>
+                    </div>
+                    <p class="solution-desc">A B2B Progressive Web App turning waste into a commodity. Vendors at Mattuthavani can instantly sell organic waste to biogas plants, incentivizing segregation over street dumping.</p>
+                </div>
+                <div class="solution-visual glass-panel">
+                    <div class="app-mockup">
+                        <div class="app-header">Available Lots</div>
+                        <div class="app-item">50kg Spoiled Tomatoes <span>₹50</span></div>
+                        <div class="app-item">20kg Banana Peels <span>₹25</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="container section">
+        <div class="section-header fade-in">
+            <h2>GTM <span class="gradient-text">Rollout Strategy</span></h2>
+            <p>A phased approach based on impact vs hardware complexity.</p>
+        </div>
+
+        <div class="roadmap-container">
+            <div class="roadmap-item fade-in">
+                <div class="roadmap-marker">1</div>
+                <div class="roadmap-content glass-panel">
+                    <h4>Phase 1: Quick Wins & Trust</h4>
+                    <p class="text-muted">Months 1-4</p>
+                    <ul>
+                        <li>Launch Hyper-Local Waste Trading PWA (Zero hardware dependencies)</li>
+                        <li>Release Madurai Clean-Stack API with simple truck GPS nodes</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="roadmap-item fade-in delay-1">
+                <div class="roadmap-marker">2</div>
+                <div class="roadmap-content glass-panel">
+                    <h4>Phase 2: Automation & Pilot</h4>
+                    <p class="text-muted">Months 5-9</p>
+                    <ul>
+                        <li>Automated Black Spot Detection integrated heavily into city buses</li>
+                        <li>Pilot Smart-Toilet Hygiene Ledger in 5 major bus terminals</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="roadmap-item fade-in delay-2">
+                <div class="roadmap-marker">3</div>
+                <div class="roadmap-content glass-panel">
+                    <h4>Phase 3: Deep Audit Layer</h4>
+                    <p class="text-muted">Months 10-12</p>
+                    <ul>
+                        <li>Full roll-out of Vellakkal Digital Twin to hold biomining accountable</li>
+                        <li>IoT Load sensors attached to 100% of municipal fleet</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="roadmap-line"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content fade-in">
+            <div class="logo">Madurai<span class="gradient-text">CleanStack</span></div>
+            <p>An open-source initiative to revolutionize municipal solid waste logistics.</p>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="#">Documentation</a>
+                <a href="#">API Reference</a>
+            </div>
+            <p class="copyright">© 2026 Madurai Clean-Stack. Designed for the Future.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
